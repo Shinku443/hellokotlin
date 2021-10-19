@@ -3,7 +3,7 @@ package com.example.hellokotlin
 import java.util.*
 
 //Get Familiar with Kotlin
-
+//Function declaration - method name - (variable to be used name - :Type): return Type (leave blank or use Unit for void)
 fun printMessage(message: String): Unit {
     println(message)
 }
@@ -38,4 +38,6 @@ fun main() {
     testInflixExamples.runMethods()
     val testOperatorFunctions = OperatorFunctions()
     testOperatorFunctions.runMethods()
+    val varArgFunctions = VarargFunctions()
+    varArgFunctions.runMethods()
 }
