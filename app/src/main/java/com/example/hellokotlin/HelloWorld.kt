@@ -34,4 +34,6 @@ fun main() {
     println("Enter another integer to sum: ")
     val num2 = read.nextInt()
     println("Summation: " + sum(num1, num2))
+    val testRun = InflixExamples()
+    testRun.runMethods()
 }
