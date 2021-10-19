@@ -28,12 +28,14 @@ fun main() {
     printMessageWithPrefix("message", "prefix is changed");
     println(sum(4,5))
     println(multiply(2,3))
-    val read = Scanner(System.`in`)
+    /*val read = Scanner(System.`in`)
     println("Enter an integer to sum: ")
     val num1 = read.nextInt()
     println("Enter another integer to sum: ")
     val num2 = read.nextInt()
-    println("Summation: " + sum(num1, num2))
-    val testRun = InflixExamples()
-    testRun.runMethods()
+    println("Summation: " + sum(num1, num2))*/
+    val testInflixExamples = InflixExamples()
+    testInflixExamples.runMethods()
+    val testOperatorFunctions = OperatorFunctions()
+    testOperatorFunctions.runMethods()
 }
