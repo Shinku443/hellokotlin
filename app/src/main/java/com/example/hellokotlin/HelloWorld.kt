@@ -1,7 +1,5 @@
 package com.example.hellokotlin
 
-import java.util.*
-
 //Get Familiar with Kotlin
 //Function declaration - method name - (variable to be used name - :Type): return Type (leave blank or use Unit for void)
 fun printMessage(message: String): Unit {
@@ -26,8 +24,8 @@ fun main() {
     printMessage("lol test")
     printMessageWithPrefix("message");
     printMessageWithPrefix("message", "prefix is changed");
-    println(sum(4,5))
-    println(multiply(2,3))
+    println(sum(4, 5))
+    println(multiply(2, 3))
     /*val read = Scanner(System.`in`)
     println("Enter an integer to sum: ")
     val num1 = read.nextInt()
@@ -38,6 +36,8 @@ fun main() {
     testInflixExamples.runMethods()
     val testOperatorFunctions = OperatorFunctions()
     testOperatorFunctions.runMethods()
-    val varArgFunctions = VarargFunctions()
-    varArgFunctions.runMethods()
+    val testVarArgFunctions = VarargFunctions()
+    testVarArgFunctions.runMethods()
+    val testVariableExamples = VariableExamples()
+    testVariableExamples.runMethods()
 }
